@@ -8,11 +8,12 @@ namespace ConsoleApp1
 {
     public class Produtos
     {
-        public string Nomes { get; set; }
+        public string Nome { get; set; }
 
-        public string Preco { get; set; }
-
-        public string Estoque { get; set; }
+        public decimal Preco { get; set; }
+        public int Estoque { get; set; }
+        public int Id { get; set; }
       
     }
+     
 }
